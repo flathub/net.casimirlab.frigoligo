@@ -42,5 +42,5 @@ modules:
         url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.1.3/flathub/net.casimirlab.frigoligo.desktop
         sha256: 024e794da4e16e4aed4d4d8f053518e4c0f341c25e32c127e6a54930b27e5e70
       - type: file
-        url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.1.3/flathub/net.casimirlab.frigoligo.metainfo.xml
-        sha256: 64f0ccc9414267ffbfad51edb39ed1425ff65224807a586f2c021385eb0a6f0c
+        url: https://raw.githubusercontent.com/casimir/frigoligo/3fcb1e91cc92f706e41e4042713e6e22bbb5624a/flathub/net.casimirlab.frigoligo.metainfo.xml
+        sha256: c29568e8dc5dc8ea61f35ff440c8d2f2642c3704201ac7918d0ae675aeef374a
