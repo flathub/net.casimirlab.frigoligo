@@ -26,21 +26,21 @@ modules:
       - install -Dm644 net.casimirlab.frigoligo.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: file
-        url: https://github.com/casimir/frigoligo/releases/download/v2.2.0/frigoligo-v2.2.0-linux-arm64.tar.gz
-        sha256: f6c0756b51b7294f404aa13313165a9b6a31328dc0fd08827b542f29d850dbae
+        url: https://github.com/casimir/frigoligo/releases/download/v2.3.0/frigoligo-v2.3.0-linux-arm64.tar.gz
+        sha256: 1ee05021e5fc211e88883af7d17a960b9ea980cf81c48c4631a3d0211809bf76
         only-arches: [aarch64]
         dest-filename: frigoligo.tar.gz
       - type: file
-        url: https://github.com/casimir/frigoligo/releases/download/v2.2.0/frigoligo-v2.2.0-linux-x64.tar.gz
-        sha256: 470073996685315ec6f230ae63f6116ac3d98f43b6cc31f4c48e338d16e7064a
+        url: https://github.com/casimir/frigoligo/releases/download/v2.3.0/frigoligo-v2.3.0-linux-x64.tar.gz
+        sha256: a63f749a809110c9ed7531ad476474bfdd9dc30b2a91723ae42af140ae26fc5c
         only-arches: [x86_64]
         dest-filename: frigoligo.tar.gz
       - type: file
-        url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.2.0/assets/logos/frigoligo_cropped.svg
+        url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.3.0/assets/logos/frigoligo_cropped.svg
         sha256: 2302aae1f61df883f3fc8839a41e44c560071523179fa3d35d85ea67c576b317
       - type: file
-        url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.2.0/flathub/net.casimirlab.frigoligo.desktop
+        url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.3.0/flathub/net.casimirlab.frigoligo.desktop
         sha256: 024e794da4e16e4aed4d4d8f053518e4c0f341c25e32c127e6a54930b27e5e70
       - type: file
-        url: https://raw.githubusercontent.com/casimir/frigoligo/049a83530809f4fc8248cb952c29ca9a3d09f544/flathub/net.casimirlab.frigoligo.metainfo.xml
-        sha256: a29642d96790c0caef956e6fd739c86fc686a5004a3d7041a7f2013f7ea1d696
+        url: https://raw.githubusercontent.com/casimir/frigoligo/refs/tags/v2.3.0/flathub/net.casimirlab.frigoligo.metainfo.xml
+        sha256: d0a5ce197883e87e869da7b4e3e8988e5e690abd7594b1adc3a6675176529497
