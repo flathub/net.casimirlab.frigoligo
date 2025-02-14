@@ -13,7 +13,7 @@ finish-args:
   - --device=dri
   - --socket=pulseaudio
   - --share=network
-  - --filesystem=xdg-documents
+  - --persist=data
 modules:
   - name: Frigoligo
     buildsystem: simple
