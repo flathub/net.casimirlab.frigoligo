@@ -13,7 +13,7 @@ finish-args:
   - --device=dri
   - --socket=pulseaudio
   - --share=network
-  - --persist=data
+  - --persist=.local/share/frigoligo
 modules:
   - name: Frigoligo
     buildsystem: simple
